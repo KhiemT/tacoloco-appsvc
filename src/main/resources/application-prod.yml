@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: TacoLoco
+  profiles:
+    active: prod
+  messages:
+    basename: i18n/messages
+server:
+  port: ${PORT:8081}
